@@ -3,3 +3,6 @@ class Foundation.OrbitView extends Ember.View
   attributeBindings: ['data-orbit']
   dataOrbit: true
 
+class Foundation.OrbitItemView extends Ember.View
+  tagName: 'li'
+  templateName: 'orbit_item'
