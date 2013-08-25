@@ -11,6 +11,10 @@ either Handlebars helpers or Ember.View mixins. In short, we want to
 provide a 1:1 translation layer between Foundation's time-saving
 JavaScript components and your rich Ember.js application.
 
+**ember-foundation** is distributed as a Rails plugin, and is suited best
+for Ruby on Rails developers who use EmberScript and Emblem, but it can
+also be used as a standalone library in any JavaScript application.
+
 ## Installation
 
 For **Ruby on Rails** users, just add this gem to your Gemfile:
@@ -109,7 +113,12 @@ helpers and view mixins to help making your own templates/views easier.
 
 ## Development
 
+All contributions will be considered if you include tests and submit a
+pull request.
+
 ### Roadmap
 
+- Add missing views
+- Add helpers for CSS components
 - Add support for Bower
 - Add support for NPM
