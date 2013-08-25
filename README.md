@@ -122,3 +122,4 @@ pull request.
 - Add helpers for CSS components
 - Add support for Bower
 - Add support for NPM
+- Write better documentation for all objects
