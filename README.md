@@ -1,6 +1,15 @@
 # ember-foundation
 
-A plugin for Ember.js
+A plugin for Ember.js that provides a series of views and helpers for
+working with Zurb Foundation. Although Ember and Foundation work very
+well together, sometimes adding the various attributes and classes
+required for Foundation's JS components library can be a little awkward,
+especially in Emblem or other alternative templating languages. This
+plugin helps to solve that problem by providing all of the Foundation JS
+components as Ember.View objects, and all of the CSS components as
+either Handlebars helpers or Ember.View mixins. In short, we want to
+provide a 1:1 translation layer between Foundation's time-saving
+JavaScript components and your rich Ember.js application.
 
 ## Installation
 
